@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: quickshare-v0-1
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
