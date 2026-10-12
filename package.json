@@ -1,0 +1,16 @@
+{
+  "name": "quickshare-v0-1",
+  "version": "0.1.0",
+  "private": true,
+  "description": "QuickShare — QR-based original-quality file transfer using WebRTC",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
